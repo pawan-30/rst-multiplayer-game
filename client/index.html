@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RST Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>RST Game - Multiplayer</h1>
+    
+    <div id="gameArea">
+        <div id="status">Waiting for players to join...</div>
+        <div id="players">Players Connected: <span id="playerCount">0</span>/12</div>
+        <div id="wordDisplay"></div>
+        <input type="text" id="wordInput" placeholder="Type a word..." disabled>
+        <button id="submitWord" disabled>Submit Word</button>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>
